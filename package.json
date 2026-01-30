@@ -1,0 +1,16 @@
+{
+  "name": "create-sourabh-app",
+  "version": "1.0.0",
+  "description": "A perfect Expo + NativeWind setup",
+  "bin": {
+    "create-sourabh-app": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "template"
+  ],
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "picocolors": "^1.0.0"
+  }
+}
