@@ -1,7 +1,7 @@
 {
   "name": "create-sourabh-app",
   "version": "1.0.0",
-  "description": "A perfect Expo + NativeWind setup",
+  "description": "A perfect Expo + NativeWind setup by Sourabh Shrivastava",
   "bin": {
     "create-sourabh-app": "./index.js"
   },
@@ -9,8 +9,32 @@
     "index.js",
     "template"
   ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "nativewind",
+    "boilerplate",
+    "starter",
+    "cli"
+  ],
+  "author": "Sourabh Shrivastava",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourabh-S7/create-sourabh-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sourabh-S7/create-sourabh-app/issues"
+  },
+  "homepage": "https://github.com/sourabh-S7/create-sourabh-app#readme",
   "dependencies": {
     "fs-extra": "^11.2.0",
     "picocolors": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
